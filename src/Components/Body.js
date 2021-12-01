@@ -7,7 +7,7 @@ const Body = () => {
   const [showPhoto, setShowPhoto] = useState();
 
   const api = createApi({
-    accessKey: "UAFqLKlwhoKAFYJPUWzMTW7QJBuiznkQrIUJGDH4v8s",
+    accessKey: process.env.REACT_APP_KEY,
   });
 
   useEffect(() => {
